@@ -1,5 +1,6 @@
 applications:
-  - name: YourUniqueName-Predix-HelloWorld-WebApp # Step 1: Change your application name
+  - name: hello-world # Step 1: Change your application name
     buildpack: nodejs_buildpack 
     memory: 256M
-    random-route: true
+    routes:
+    - route: hello-wolrd.cfapps.us10-001.hana.ondemand.com 
