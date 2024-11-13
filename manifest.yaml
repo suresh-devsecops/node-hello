@@ -1,0 +1,5 @@
+applications:
+  - name: YourUniqueName-Predix-HelloWorld-WebApp # Step 1: Change your application name
+    buildpack: nodejs_buildpack 
+    memory: 256M
+    random-route: true
